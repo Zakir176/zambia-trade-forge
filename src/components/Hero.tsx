@@ -17,54 +17,54 @@ const Hero = () => {
             {/* Badge */}
             <div className="inline-flex items-center bg-gold/10 text-gold px-4 py-2 rounded-full text-sm font-medium mb-6">
               <Star className="h-4 w-4 mr-2" />
-              Zambia's #1 Trading Platform
+              Zambia's #1 Trading Podcast
             </div>
 
             {/* Main Headline */}
             <h1 className="text-4xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
-              Master the Markets with{" "}
+              Stories That{" "}
               <span className="text-transparent bg-gradient-gold bg-clip-text">
-                TopTrader Zambia
+                Change Lives
               </span>
             </h1>
 
             {/* Subheadline */}
             <p className="text-xl text-muted-foreground mb-8 lg:pr-8">
-              Join Zambia's Trusted Forex Trading Community—Win More, Trade Smarter. 
-              Get professional signals, expert mentorship, and proven strategies.
+              Discover the journeys of Zambia's top traders. Learn from their experiences, 
+              challenges, and successes that are transforming the trading industry.
             </p>
 
             {/* Stats */}
             <div className="flex flex-wrap justify-center lg:justify-start gap-6 mb-8">
               <div className="text-center">
-                <div className="text-2xl font-bold text-foreground">500+</div>
-                <div className="text-sm text-muted-foreground">Traders Mentored</div>
+                <div className="text-2xl font-bold text-foreground">50+</div>
+                <div className="text-sm text-muted-foreground">Episodes Released</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-success">85%</div>
-                <div className="text-sm text-muted-foreground">Success Rate</div>
+                <div className="text-2xl font-bold text-success">25+</div>
+                <div className="text-sm text-muted-foreground">Top Traders Featured</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-gold">K2.5M+</div>
-                <div className="text-sm text-muted-foreground">Profits Generated</div>
+                <div className="text-2xl font-bold text-gold">10K+</div>
+                <div className="text-sm text-muted-foreground">Monthly Listeners</div>
               </div>
             </div>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button variant="hero" size="lg" className="group">
-                Start Free Trial
+                Listen to Latest Episode
                 <ArrowRight className="h-5 w-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button variant="outline" size="lg" className="group">
                 <Play className="h-5 w-5 mr-2" />
-                Watch Demo
+                Watch Highlights
               </Button>
             </div>
 
             {/* Trust Indicators */}
             <div className="mt-8 text-sm text-muted-foreground">
-              ✓ No hidden fees • ✓ 30-day money back • ✓ 24/7 Support
+              ✓ New episodes weekly • ✓ Free to listen • ✓ Available on all platforms
             </div>
           </div>
 

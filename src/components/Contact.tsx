@@ -22,10 +22,10 @@ const Contact = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
-            Ready to Start Trading?
+            Be a Guest or Get Mentorship
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Get in touch with our team and start your journey to financial freedom today
+            Share your trading story with our audience or get mentored by our featured guests
           </p>
         </div>
 
@@ -58,13 +58,14 @@ const Contact = () => {
               </div>
               
               <div className="space-y-2">
-                <Label htmlFor="service">Interested Service</Label>
+                <Label htmlFor="service">I'm interested in</Label>
                 <select className="w-full px-3 py-2 border border-input rounded-md bg-background text-foreground">
-                  <option value="">Select a service</option>
-                  <option value="signals">Trading Signals</option>
+                  <option value="">Select an option</option>
+                  <option value="guest">Being a podcast guest</option>
                   <option value="mentorship">1-on-1 Mentorship</option>
-                  <option value="academy">Trading Academy</option>
-                  <option value="vip">VIP Membership</option>
+                  <option value="group-mentorship">Group Mentorship</option>
+                  <option value="academy">Podcast Academy</option>
+                  <option value="partnership">Partnership/Collaboration</option>
                 </select>
               </div>
               
@@ -72,7 +73,7 @@ const Contact = () => {
                 <Label htmlFor="message">Message</Label>
                 <Textarea 
                   id="message" 
-                  placeholder="Tell us about your trading experience and goals..." 
+                  placeholder="Tell us about your trading story, experience, or mentorship goals..." 
                   rows={4}
                 />
               </div>

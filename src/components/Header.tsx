@@ -16,14 +16,17 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#services" className="text-foreground hover:text-gold transition-colors">
-              Services
+            <a href="#episodes" className="text-foreground hover:text-gold transition-colors">
+              Episodes
+            </a>
+            <a href="#guests" className="text-foreground hover:text-gold transition-colors">
+              Top Traders
+            </a>
+            <a href="#mentorship" className="text-foreground hover:text-gold transition-colors">
+              Mentorship
             </a>
             <a href="#about" className="text-foreground hover:text-gold transition-colors">
               About
-            </a>
-            <a href="#testimonials" className="text-foreground hover:text-gold transition-colors">
-              Success Stories
             </a>
             <a href="#contact" className="text-foreground hover:text-gold transition-colors">
               Contact
@@ -32,8 +35,8 @@ const Header = () => {
 
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="outline">Sign In</Button>
-            <Button variant="hero">Start Free Trial</Button>
+            <Button variant="outline">Listen Now</Button>
+            <Button variant="hero">Get Mentorship</Button>
           </div>
 
           {/* Mobile Menu Button */}
